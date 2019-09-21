@@ -246,6 +246,23 @@ body {
 
   .wine-foot {
     height: 350px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    .wine-social {
+      .wine-social-facebook,
+      .wine-social-twitter,
+      .wine-social-youtube,
+      .wine-social-instagram {
+        color: #fff;
+      }
+      a {
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: #930077;
+        border-radius: 100%;
+        margin-right: 5px;
+      }
+    }
   }
 }
