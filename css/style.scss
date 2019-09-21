@@ -11,7 +11,39 @@ body {
   text-align: left;
   background-color: #fff;
 
-  .header {
-    margin: 25px 0;
+  .wine-header {
+    padding: 25px 0;
+  }
+
+  .wine-nav {
+    height: 60px;
+    .active {
+      & > a {
+        color: #930077 !important;
+      }
+    }
+    .nav-item {
+      padding-right: 30px;
+      &:last-child {
+        padding-right: 0;
+      }
+      a {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        font-weight: 400;
+        color: #000;
+        transition-duration: 500ms;
+        &:hover {
+          color: #930077;
+          transition-duration: 500ms;
+        }
+      }
+    }
+  }
+
+  .container-fluid {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
   }
 }
