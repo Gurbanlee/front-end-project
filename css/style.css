@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -9,12 +10,26 @@ body {
   background-color: #fff;
 }
 
+body a {
+  color: #000;
+  text-decoration: none !important;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+body a:hover {
+  color: #930077;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
 body .wine-header {
   padding: 25px 0;
 }
 
 body .wine-nav {
   height: 60px;
+  font-family: "Cinzel", serif;
 }
 
 body .wine-nav .active > a {
@@ -89,5 +104,163 @@ body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-prev {
 
 body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-next {
   right: 0;
+}
+
+body .container-fluid .wine-our-products h2 {
+  font-family: "Cinzel", serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body .container-fluid .wine-our-products p {
+  color: #000;
+  text-align: center;
+}
+
+body .container-fluid .wine-our-products p > a {
+  color: #930077;
+  text-transform: capitalize;
+}
+
+body .container-fluid .wine-our-products .wine-item {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+body .container-fluid .wine-our-products .wine-item::before {
+  content: "";
+  background: #f3f4f5;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+body .container-fluid .wine-our-products .wine-item > a {
+  color: #930077;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+body .container-fluid .wine-our-products .wine-item > a img {
+  vertical-align: middle;
+  max-width: 350px;
+}
+
+body .container-fluid .wine-our-products .wine-item .heading {
+  font-size: 18px;
+}
+
+body .container-fluid .wine-our-products .wine-item .heading > a {
+  color: #000;
+}
+
+body .container-fluid .wine-our-products .wine-item .price {
+  color: gray;
+}
+
+body .container-fluid .hero {
+  background-image: url(../i/slide-2.jpg);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+body .container-fluid .hero::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: #222;
+  opacity: 0.3;
+  border-bottom-right-radius: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body .container-fluid .hero .sub-title {
+  font-family: "Cinzel", serif;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+body .container-fluid .hero h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: montserrat;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body .container-fluid .wine-about .testimony {
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  text-transform: none !important;
+}
+
+body .container-fluid .wine-about .testimony img {
+  max-width: auto !important;
+  width: 80px !important;
+  border: 4px solid #930077;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body .container-fluid .wine-about .testimony .text-primary {
+  color: #930077 !important;
+}
+
+body .container-fluid .wine-blog h2 {
+  font-family: "Cinzel", serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body .container-fluid .wine-blog p {
+  color: #000;
+  text-align: center;
+}
+
+body .container-fluid .wine-blog p > a {
+  color: #930077;
+  text-transform: capitalize;
+}
+
+body .container-fluid .wine-blog .wine-post {
+  padding-bottom: 40%;
+}
+
+body .container-fluid .wine-blog .wine-post h2 > a {
+  font-size: 20px;
+  line-height: 0.1 !important;
+}
+
+body .container-fluid .wine-blog .wine-post p {
+  color: gray;
+  font-size: 16px;
+  text-align: left;
+}
+
+body .container-fluid .wine-blog .wine-post .post-meta {
+  font-size: 12px;
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */
