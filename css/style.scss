@@ -45,5 +45,46 @@ body {
   .container-fluid {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    .container {
+      .wine-slide {
+        position: relative;
+        .wine-slide-img {
+          background-size: cover;
+          background-position: center center;
+        }
+        .owl-theme {
+          .custom-nav {
+            position: absolute;
+            top: 40%;
+            left: -10%;
+            right: -10%;
+
+            .owl-prev,
+            .owl-next {
+              position: absolute;
+              height: 100px;
+              color: inherit;
+              background-color: #fff;
+              border: none;
+              z-index: 100;
+
+              i {
+                font-size: 2.5rem;
+                color: gray;
+                text-decoration: none;
+              }
+            }
+
+            .owl-prev {
+              left: 0;
+            }
+
+            .owl-next {
+              right: 0;
+            }
+          }
+        }
+      }
+    }
   }
 }

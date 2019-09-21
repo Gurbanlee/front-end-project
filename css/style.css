@@ -49,4 +49,45 @@ body .container-fluid {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
+
+body .container-fluid .container .wine-slide {
+  position: relative;
+}
+
+body .container-fluid .container .wine-slide .wine-slide-img {
+  background-size: cover;
+  background-position: center center;
+}
+
+body .container-fluid .container .wine-slide .owl-theme .custom-nav {
+  position: absolute;
+  top: 40%;
+  left: -10%;
+  right: -10%;
+}
+
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-prev,
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-next {
+  position: absolute;
+  height: 100px;
+  color: inherit;
+  background-color: #fff;
+  border: none;
+  z-index: 100;
+}
+
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-prev i,
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-next i {
+  font-size: 2.5rem;
+  color: gray;
+  text-decoration: none;
+}
+
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-prev {
+  left: 0;
+}
+
+body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-next {
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */

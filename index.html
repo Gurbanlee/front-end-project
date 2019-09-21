@@ -8,6 +8,9 @@
     <title>WINES CO.</title>
     <link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -47,12 +50,51 @@
 
     <div class="container-fluid">
 
+        <div class="container">
+            <section class="wine-slide mt-1">
+                <div class="owl-carousel">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="i/slide-1.webp" alt="slide-1" class="wine-slide-img">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="i/slide-2.jpg" alt="slide-2" class="wine-slide-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-theme">
+                    <div class="owl-controls">
+                        <div class="custom-nav owl-nav"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
     </div>
 
 
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/9176eba334.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                center: true,
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+                nav: true,
+                navText: [
+                    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                    '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                ],
+                navContainer: '.wine-slide .custom-nav'
+            });
+        });
+    </script>
 </body>
 
 </html>
