@@ -263,4 +263,9 @@ body .container-fluid .wine-blog .wine-post .post-meta {
   font-size: 12px;
   color: gray;
 }
+
+body .wine-foot {
+  height: 350px;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=style.css.map */
