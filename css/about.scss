@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
 
+section * {
+  margin-bottom: 40px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -9,4 +13,41 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+
+  .about-us {
+    .text-dark {
+      color: #000 !important;
+      text-transform: capitalize;
+      font-family: cinzel;
+      margin-bottom: 50px;
+    }
+  }
+  .block-left {
+    figure {
+      position: relative;
+      .play-button {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition-duration: 500ms;
+        &:hover {
+          background-color: #000;
+          transition-duration: 500ms;
+        }
+        i {
+          position: absolute;
+          color: #930077;
+          font-size: 20px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
 }
