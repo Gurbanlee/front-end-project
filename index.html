@@ -16,37 +16,8 @@
 
 <body>
 
-    <div class="container">
-        <section class="wine-header">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#"><img src="i/logo.webp" class="img-fluid" alt="logo"></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="wine-nav d-flex align-items-center text-left mb-3">
-            <nav class="navbar navbar-expand-lg mx-auto">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">wines</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-    </div>
+    <header class="header">
+    </header>
 
     <div class="container-fluid">
 
@@ -247,57 +218,14 @@
 
     </div>
 
-    <footer class="wine-foot">
-        <div class="wine-social">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <a href="#">
-                            <span class="wine-social-facebook">
-                                <i class="fab fa-facebook-f"></i>
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span class="wine-social-twitter">
-                                <i class="fab fa-twitter"></i>
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span class="wine-social-youtube">
-                                <i class="fab fa-youtube"></i>
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span class="wine-social-instagram">
-                                <i class="fab fa-instagram"></i>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer class="wine-foot text-center">
 
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/9176eba334.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                center: true,
-                items: 1,
-                loop: true,
-                autoplay: true,
-                autoplayHoverPause: true,
-                nav: true,
-                navText: [
-                    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-                    '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-                ],
-                navContainer: '.wine-slide .custom-nav'
-            });
-        });
-    </script>
+    <script src="js/include.js"></script>
+    <script src="js/getOwl.js"></script>
 </body>
 
 </html>
