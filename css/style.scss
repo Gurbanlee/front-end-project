@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -148,13 +149,14 @@ body {
           color: gray;
         }
       }
-    } 
+    }
     .hero {
       background-image: url(../i/slide-2.jpg);
       background-size: cover;
       position: relative;
       background-attachment: fixed;
       background-position: center center;
+      height: 400px;
       &::before {
         content: "";
         position: absolute;
@@ -169,6 +171,9 @@ body {
         background-position: center;
         background-repeat: no-repeat;
       }
+      .col-md-8 {
+        margin-top: 120px !important;
+      }
       .sub-title {
         font-family: "Cinzel", serif;
         color: #fff;
@@ -176,9 +181,8 @@ body {
       }
       h2 {
         font-size: 5rem;
-        font-weight: 300;
         color: #fff;
-        font-family: montserrat;
+        font-family: "Montserrat", sans-serif;
         font-weight: 900;
         text-transform: uppercase;
       }

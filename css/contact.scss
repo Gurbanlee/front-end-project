@@ -1,0 +1,34 @@
+body {
+  .text-title {
+    font-family: "Cinzel", serif;
+    margin: 100px 0 50px;
+  }
+
+  form {
+    #firstName,
+    #lastName,
+    #inputEmail4,
+    #phoneNumber {
+      height: 50px;
+    }
+    #firstName,
+    #inputEmail4 {
+      width: 95%;
+    }
+
+    label {
+      color: gray;
+    }
+
+    .btn-primary {
+      color: #fff;
+      background-color: #930077;
+      border-color: #930077;
+      margin-bottom: 100px;
+      &:hover {
+        background-color: #6d0058;
+        border-color: #60004e;
+      }
+    }
+  }
+}

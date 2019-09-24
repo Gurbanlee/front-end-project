@@ -1,0 +1,33 @@
+body .text-title {
+  font-family: "Cinzel", serif;
+  margin: 100px 0 50px;
+}
+
+body form #firstName,
+body form #lastName,
+body form #inputEmail4,
+body form #phoneNumber {
+  height: 50px;
+}
+
+body form #firstName,
+body form #inputEmail4 {
+  width: 95%;
+}
+
+body form label {
+  color: gray;
+}
+
+body form .btn-primary {
+  color: #fff;
+  background-color: #930077;
+  border-color: #930077;
+  margin-bottom: 100px;
+}
+
+body form .btn-primary:hover {
+  background-color: #6d0058;
+  border-color: #60004e;
+}
+/*# sourceMappingURL=contact.css.map */
