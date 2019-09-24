@@ -204,7 +204,8 @@ body .container-fluid .hero h2 {
   text-transform: uppercase;
 }
 
-body .container-fluid .wine-about .testimony {
+body .container-fluid .wine-about .testimony,
+body .container-fluid .our-customers .testimony {
   margin-top: 60px;
   font-size: 20px;
   font-family: "Cinzel", serif;
@@ -212,7 +213,8 @@ body .container-fluid .wine-about .testimony {
   text-transform: none !important;
 }
 
-body .container-fluid .wine-about .testimony img {
+body .container-fluid .wine-about .testimony img,
+body .container-fluid .our-customers .testimony img {
   max-width: auto !important;
   width: 80px !important;
   border: 4px solid #930077;
@@ -222,7 +224,8 @@ body .container-fluid .wine-about .testimony img {
   margin-right: auto !important;
 }
 
-body .container-fluid .wine-about .testimony .text-primary {
+body .container-fluid .wine-about .testimony .text-primary,
+body .container-fluid .our-customers .testimony .text-primary {
   color: #930077 !important;
 }
 
