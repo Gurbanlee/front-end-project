@@ -1,0 +1,77 @@
+.wine-page-title {
+  margin: 50px 0 75px;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  h1 {
+    font-size: 34px;
+    text-transform: capitalize;
+  }
+}
+
+.wine-orders {
+  .table {
+    .wine-table-title {
+      text-align: center;
+      font-weight: normal;
+      font-size: 18px;
+    }
+    thead {
+      th {
+        padding: 30px;
+      }
+    }
+    tbody {
+      tr {
+        td {
+          font-family: montserrat;
+          text-align: center;
+          color: #000;
+          width: 200px;
+          vertical-align: middle;
+          & > img {
+            max-width: 200px;
+          }
+          .wine-plus-minus {
+            .counter {
+              width: 50px;
+              height: 38px;
+              text-align: center;
+              font-size: 16px;
+            }
+            .up_count,
+            .down_count {
+              color: #930077;
+              background-color: #fff;
+              border-color: #930077;
+              font-size: 16px;
+              &:hover {
+                color: #fff;
+                background-color: #930077;
+                border-color: #930077;
+              }
+            }
+            .down_count {
+              border-top-right-radius: 0;
+              border-bottom-right-radius: 0;
+              margin-right: -5px;
+            }
+            .up_count {
+              border-top-left-radius: 0;
+              border-bottom-left-radius: 0;
+              margin-left: -4px;
+            }
+          }
+          .btn {
+            background-color: #930077;
+            border-color: #930077;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+.wine-submit-orders {
+  padding: 50px 0 100px;
+}

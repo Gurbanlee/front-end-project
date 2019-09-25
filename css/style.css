@@ -29,8 +29,8 @@ body .wine-header {
 }
 
 body .wine-nav {
-  height: 60px;
   font-family: "Cinzel", serif;
+  height: 60px;
 }
 
 body .wine-nav .active > a {
