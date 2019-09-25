@@ -1,0 +1,19 @@
+.wine-title {
+  position: relative;
+  height: 150px;
+  background-color: #930077;
+  & > .wine-name {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 120px;
+    & > h1 {
+      font-family: "Cinzel", serif;
+      text-transform: capitalize;
+      color: #fff;
+    }
+  }
+}
+.owl-carousel {
+  max-width: 75%;
+}

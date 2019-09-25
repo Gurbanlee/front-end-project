@@ -1,0 +1,24 @@
+.wine-title {
+  position: relative;
+  height: 150px;
+  background-color: #930077;
+}
+
+.wine-title > .wine-name {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-left: 120px;
+}
+
+.wine-title > .wine-name > h1 {
+  font-family: "Cinzel", serif;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.owl-carousel {
+  max-width: 75%;
+}
+/*# sourceMappingURL=shop-single.css.map */
