@@ -61,6 +61,19 @@ body .wine-nav .nav-item a:hover {
           transition-duration: 500ms;
 }
 
+body .nav-top-sabit {
+  position: fixed;
+  width: 100% !important;
+  text-align: center;
+  top: 0;
+  left: 50%;
+  right: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 99;
+  background-color: #fff;
+}
+
 body .container-fluid {
   border-top: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6;
