@@ -1,0 +1,105 @@
+.bg-light > p {
+  color: gray;
+}
+
+.bg-light > p > a {
+  color: #930077;
+}
+
+.bg-light > p > a:hover {
+  color: #470039;
+}
+
+.wine-billing-coupon .wine-col-title {
+  padding-bottom: 30px;
+}
+
+.wine-billing-coupon .wine-col-title h2 {
+  font-family: "Cinzel", serif;
+  text-transform: capitalize;
+}
+
+.wine-billing-coupon .border {
+  padding: 50px;
+}
+
+.wine-billing-coupon .border > label {
+  color: black;
+}
+
+.wine-billing-coupon .border span {
+  color: red;
+}
+
+.wine-billing-coupon .border .form-control {
+  margin-bottom: 20px;
+}
+
+.wine-billing-coupon .border #checkBoxText {
+  display: none;
+}
+
+.wine-billing-coupon .border #checkBoxText p {
+  color: gray;
+}
+
+.wine-billing-coupon .border #shipToDifferentAddressText {
+  display: none;
+  padding-top: 25px;
+}
+
+.wine-billing-coupon .border #shipToDifferentAddressText p {
+  color: gray;
+}
+
+.wine-billing-coupon .border .btn-md {
+  background-color: #930077;
+  border-color: #930077;
+  font-size: 14px;
+}
+
+.wine-billing-coupon .border .btn-md:hover {
+  background-color: #470039;
+  border-color: #470039;
+}
+
+.wine-billing-coupon .border .table .strong {
+  font-weight: 800;
+}
+
+.wine-billing-coupon .border .wine-border-collapse {
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.wine-billing-coupon .border .wine-border-collapse > p {
+  padding: 15px 15px 0;
+}
+
+.wine-billing-coupon .border .wine-border-collapse > p > a {
+  color: #930077;
+}
+
+.wine-billing-coupon .border .wine-border-collapse > p > a:hover {
+  color: #470039;
+}
+
+.wine-billing-coupon .border .wine-border-collapse .collapse {
+  color: gray;
+}
+
+.wine-billing-coupon .border .wine-border-collapse .collapse .card-body {
+  color: gray;
+}
+
+.wine-billing-coupon .border .form-group .btn-lg {
+  background-color: #930077;
+  border-color: #930077;
+}
+
+.wine-billing-coupon .border .form-group .btn-lg:hover {
+  background-color: #470039;
+  border-color: #470039;
+}
+/*# sourceMappingURL=checkout.css.map */

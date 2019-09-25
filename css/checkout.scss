@@ -1,0 +1,90 @@
+.bg-light {
+  & > p {
+    color: gray;
+    & > a {
+      color: #930077;
+      &:hover {
+        color: #470039;
+      }
+    }
+  }
+}
+
+.wine-billing-coupon {
+  .wine-col-title {
+    padding-bottom: 30px;
+    h2 {
+      font-family: "Cinzel", serif;
+      text-transform: capitalize;
+    }
+  }
+  .border {
+    padding: 50px;
+    & > label {
+      color: black;
+    }
+    span {
+      color: red;
+    }
+    .form-control {
+      margin-bottom: 20px;
+    }
+    #checkBoxText {
+      display: none;
+      p {
+        color: gray;
+      }
+    }
+    #shipToDifferentAddressText {
+      display: none;
+      padding-top: 25px;
+      p {
+        color: gray;
+      }
+    }
+    .btn-md {
+      background-color: #930077;
+      border-color: #930077;
+      font-size: 14px;
+      &:hover {
+        background-color: #470039;
+        border-color: #470039;
+      }
+    }
+    .table {
+      .strong {
+        font-weight: 800;
+      }
+    }
+    .wine-border-collapse {
+      border: 1px solid #dee2e6;
+      border-radius: 3px;
+      margin-bottom: 15px;
+      & > p {
+        padding: 15px 15px 0;
+        & > a {
+          color: #930077;
+          &:hover {
+            color: #470039;
+          }
+        }
+      }
+      .collapse {
+        color: gray;
+        .card-body {
+          color: gray;
+        }
+      }
+    }
+    .form-group {
+      .btn-lg {
+        background-color: #930077;
+        border-color: #930077;
+        &:hover {
+          background-color: #470039;
+          border-color: #470039;
+        }
+      }
+    }
+  }
+}

@@ -13,3 +13,5 @@
 --  https://michalsnik.github.io/aos/
 
 --  https://www.jqueryscript.net/other/Vimeo-Youtube-Video-Popup-Plugin-jQuery.html
+
+--  https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
