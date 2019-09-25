@@ -74,4 +74,27 @@
 
 .wine-submit-orders {
   padding: 50px 0 100px;
+  margin-top: 50px;
+  .btn-primary {
+    background-color: #930077;
+    border-color: #930077;
+    color: #fff;
+    &:hover {
+      color: #fff;
+      background-color: #6d0058;
+      border-color: #60004e;
+    }
+  }
+  .btn-outline-primary {
+    border-color: #930077;
+    color: #930077;
+    &:hover {
+      background-color: #930077;
+      border-color: #930077;
+      color: #fff;
+    }
+  }
+  p {
+    color: gray;
+  }
 }
