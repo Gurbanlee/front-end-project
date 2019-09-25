@@ -1,0 +1,31 @@
+.fa-check-circle {
+  color: #8bc34a;
+  font-size: 70px;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  text-transform: capitalize;
+  font-size: 75px;
+  color: #000;
+}
+
+.text-muted {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.wine-end-section {
+  padding-bottom: 100px;
+}
+
+.wine-end-section .btn {
+  background-color: #930077;
+  border-color: #930077;
+}
+
+.wine-end-section .btn:hover {
+  background-color: #6d0058;
+  border-color: #60004e;
+}
+/*# sourceMappingURL=thankyou.css.map */
