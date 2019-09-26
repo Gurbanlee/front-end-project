@@ -19,7 +19,7 @@ body #loader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_7.gif") no-repeat center center;
+  background: #fff url("../i/load.gif") no-repeat center center;
 }
 
 body a {
@@ -324,6 +324,9 @@ body .wine-foot {
 }
 
 body .wine-foot .wine-social a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  top: 0;
   display: inline-block;
   text-align: center;
   position: relative;
@@ -333,13 +336,11 @@ body .wine-foot .wine-social a {
   color: #fff;
   border-radius: 100%;
   margin-right: 5px;
-  -webkit-transition: 0.3s all ease;
-  transition: 0.3s all ease;
 }
 
 body .wine-foot .wine-social a:hover {
-  background-color: #000;
   top: -5px;
+  background-color: #000;
 }
 
 body .wine-foot .wine-social a i {
