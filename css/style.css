@@ -102,7 +102,7 @@ body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-next {
   color: inherit;
   background-color: #fff;
   border: none;
-  z-index: 100;
+  z-index: 9;
 }
 
 body .container-fluid .container .wine-slide .owl-theme .custom-nav .owl-prev i,

@@ -52,7 +52,6 @@ body {
       }
     }
   }
-
   .nav-top-sabit {
     position: fixed;
     width: 100% !important;
@@ -89,7 +88,7 @@ body {
               color: inherit;
               background-color: #fff;
               border: none;
-              z-index: 100;
+              z-index: 9;
 
               i {
                 font-size: 2.5rem;
