@@ -14,10 +14,10 @@ body {
   a {
     color: #000;
     text-decoration: none !important;
-    transition-duration: 500ms;
+    transition: 0.3s all ease;
     &:hover {
       color: #930077;
-      transition-duration: 500ms;
+      transition: 0.3s all ease;
     }
   }
 
@@ -40,8 +40,8 @@ body {
       }
       a {
         text-transform: uppercase;
-        font-size: 0.8rem;
-        letter-spacing: 0.05rem;
+        font-size: 13px;
+        letter-spacing: 1px;
         font-weight: 400;
         color: #000;
         transition-duration: 500ms;
@@ -91,7 +91,7 @@ body {
               z-index: 9;
 
               i {
-                font-size: 2.5rem;
+                font-size: 40px;
                 color: gray;
                 text-decoration: none;
               }
@@ -129,6 +129,10 @@ body {
         text-align: center;
         position: relative;
         margin-bottom: 30px;
+        &:hover {
+          opacity: 1;
+          visibility: visible;
+        }
         &::before {
           content: "";
           background: #f3f4f5;
@@ -139,12 +143,32 @@ body {
           position: absolute;
           z-index: -1;
         }
+        .wine-actions {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          position: absolute;
+          left: 20px;
+          right: 20px;
+          bottom: 20px;
+          background: #fff;
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transition: 0.3s all ease;
+          -o-transition: 0.3s all ease;
+          transition: 0.3s all ease;
+          .rating {
+            margin-bottom: 20px;
+            & > span {
+              font-size: 16px;
+              color: #ffbd39;
+            }
+          }
+        }
         & > a {
           color: #930077;
           text-decoration: none;
-          background-color: transparent;
-          transition: 0.3s all ease;
-
+          // background-color: transparent;
+          // transition: 0.3s all ease;
           img {
             vertical-align: middle;
             max-width: 350px;
