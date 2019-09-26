@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/checkout.css">
 </head>
@@ -775,11 +776,11 @@
                             </div>
                             <div class="row pt-4">
                                 <div class="col">
-                                    <label for="adress">
+                                    <label for="ordernotes">
                                         Order Notes
                                     </label>
                                     <textarea class="form-control" rows="5"
-                                        placeholder="Write your notes here..."></textarea>
+                                        placeholder="Write your notes here..." id="ordernotes"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -891,9 +892,9 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group mt-4">
-                                        <button class="btn btn-primary btn-lg btn-block">
+                                        <a href="thankyou.html" class="btn btn-primary btn-lg btn-block">
                                             Place Order
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -915,6 +916,7 @@
     <script src="https://kit.fontawesome.com/9176eba334.js"></script>
     <script src="js/include.js"></script>
     <script src="js/getStickyNav.js"></script>
+    <script src="js/getBurgerMenu.js"></script>
     <script src="js/getOwl.js"></script>
     <script src="js/getCheckbox.js"></script>
 </body>
