@@ -17,3 +17,5 @@
 --  https://gist.github.com/danrovito/977bcb97c9c2dfd3398a
 
 --  https://www.inventpartners.com/open-source/flexible-responsive-burger-menu
+
+--  http://jsfiddle.net/harshdand/593Lqqnm/2/
