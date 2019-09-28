@@ -9,17 +9,21 @@
   text-transform: capitalize;
 }
 
-.wine-orders .table .wine-table-title {
+.wine-orders .site-blocks-table {
+  overflow: auto;
+}
+
+.wine-orders .site-blocks-table .table .wine-table-title {
   text-align: center;
   font-weight: normal;
   font-size: 18px;
 }
 
-.wine-orders .table thead th {
+.wine-orders .site-blocks-table .table thead th {
   padding: 30px;
 }
 
-.wine-orders .table tbody tr td {
+.wine-orders .site-blocks-table .table tbody tr td {
   font-family: montserrat;
   text-align: center;
   color: #000;
@@ -27,45 +31,41 @@
   vertical-align: middle;
 }
 
-.wine-orders .table tbody tr td > img {
-  max-width: 200px;
-}
-
-.wine-orders .table tbody tr td .wine-plus-minus .counter {
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .counter {
   width: 50px;
   height: 38px;
   text-align: center;
   font-size: 16px;
 }
 
-.wine-orders .table tbody tr td .wine-plus-minus .up_count,
-.wine-orders .table tbody tr td .wine-plus-minus .down_count {
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .up_count,
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .down_count {
   color: #930077;
   background-color: #fff;
   border-color: #930077;
   font-size: 16px;
 }
 
-.wine-orders .table tbody tr td .wine-plus-minus .up_count:hover,
-.wine-orders .table tbody tr td .wine-plus-minus .down_count:hover {
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .up_count:hover,
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .down_count:hover {
   color: #fff;
   background-color: #930077;
   border-color: #930077;
 }
 
-.wine-orders .table tbody tr td .wine-plus-minus .down_count {
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .down_count {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   margin-right: -5px;
 }
 
-.wine-orders .table tbody tr td .wine-plus-minus .up_count {
+.wine-orders .site-blocks-table .table tbody tr td .wine-plus-minus .up_count {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   margin-left: -4px;
 }
 
-.wine-orders .table tbody tr td .btn {
+.wine-orders .site-blocks-table .table tbody tr td .btn {
   background-color: #930077;
   border-color: #930077;
   font-weight: 600;
