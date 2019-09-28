@@ -153,11 +153,6 @@ body .container-fluid .wine-our-products .wine-item {
   margin-bottom: 30px;
 }
 
-body .container-fluid .wine-our-products .wine-item:hover {
-  opacity: 1;
-  visibility: visible;
-}
-
 body .container-fluid .wine-our-products .wine-item::before {
   content: "";
   background: #f3f4f5;
@@ -187,9 +182,31 @@ body .container-fluid .wine-our-products .wine-item .wine-actions .rating {
   margin-bottom: 20px;
 }
 
-body .container-fluid .wine-our-products .wine-item .wine-actions .rating > span {
-  font-size: 16px;
+body .container-fluid .wine-our-products .wine-item .wine-actions .rating > i {
+  font-size: 14px;
   color: #ffbd39;
+}
+
+body .container-fluid .wine-our-products .wine-item .wine-actions .d-block {
+  font-family: cinzel;
+  font-size: 22px;
+  color: #930077 !important;
+}
+
+body .container-fluid .wine-our-products .wine-item .wine-actions .d-block del {
+  color: gray;
+}
+
+body .container-fluid .wine-our-products .wine-item .wine-actions .btn {
+  background: #930077;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+body .container-fluid .wine-our-products .wine-item:hover .wine-actions {
+  opacity: 1;
+  visibility: visible;
 }
 
 body .container-fluid .wine-our-products .wine-item > a {
@@ -203,7 +220,7 @@ body .container-fluid .wine-our-products .wine-item > a img {
 }
 
 body .container-fluid .wine-our-products .wine-item .heading {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 body .container-fluid .wine-our-products .wine-item .heading > a {

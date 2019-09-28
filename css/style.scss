@@ -139,10 +139,6 @@ body {
         text-align: center;
         position: relative;
         margin-bottom: 30px;
-        &:hover {
-          opacity: 1;
-          visibility: visible;
-        }
         &::before {
           content: "";
           background: #f3f4f5;
@@ -163,29 +159,43 @@ body {
           background: #fff;
           opacity: 0;
           visibility: hidden;
-          -webkit-transition: 0.3s all ease;
-          -o-transition: 0.3s all ease;
           transition: 0.3s all ease;
           .rating {
             margin-bottom: 20px;
-            & > span {
-              font-size: 16px;
+            & > i {
+              font-size: 14px;
               color: #ffbd39;
             }
           }
+          .d-block {
+            font-family: cinzel;
+            font-size: 22px;
+            color: #930077 !important;
+            del {
+              color: gray;
+            }
+          }
+          .btn {
+            background: #930077;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 0;
+          }
+        }
+        &:hover .wine-actions {
+          opacity: 1;
+          visibility: visible;
         }
         & > a {
           color: #930077;
           text-decoration: none;
-          // background-color: transparent;
-          // transition: 0.3s all ease;
           img {
             vertical-align: middle;
             max-width: 350px;
           }
         }
         .heading {
-          font-size: 18px;
+          font-size: 28px;
           & > a {
             color: #000;
           }
